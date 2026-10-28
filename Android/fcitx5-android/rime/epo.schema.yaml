@@ -1,0 +1,29 @@
+schema:
+  schema_id: epo
+  name: "世界语键盘(Esperanto)(fcitx5-android)"
+  author: "Hgnim"
+  description: "Esperanto 世界语键盘（适用于fcitx5-android） 分别将y、x、w、q、*、+、-、=替换为了ĝ、ĉ、ŭ、ŝ、ĵ、ĥ、Ĵ、Ĥ"
+
+engine:
+  processors:
+    - punctuator
+    - express_editor
+  segmentors:
+    - punct_segmentor
+  translators:
+    - punct_translator
+
+punctuator:
+  half_shape:
+    "y": { commit: "ĝ" }
+    "x": { commit: "ĉ" }
+    "w": { commit: "ŭ" }
+    "q": { commit: "ŝ" }
+    "Y": { commit: "Ĝ" }
+    "X": { commit: "Ĉ" }
+    "W": { commit: "Ŭ" }
+    "Q": { commit: "Ŝ" }
+    "*": { commit: "ĵ" }
+    "+": { commit: "ĥ" }
+    "-": { commit: "Ĵ" }
+    "=": { commit: "Ĥ" }
