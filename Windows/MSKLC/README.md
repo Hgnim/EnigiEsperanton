@@ -12,6 +12,14 @@
 
 ## 配置文件键位说明
 
-### `eoklav.klc`文件
+### [eoklav.klc](./eoklav.klc)文件
 
 使用`AltGr`键（`右Alt`键或`Ctrl+Alt`均可）加对应字母即可输入“帽子字母”
+
+### [EPO.klc](./EPO.klc)文件
+
+分别将`y`、`x`、`w`、`q`、`[`、`]`替换为了`ĝ`、`ĉ`、`ŭ`、`ŝ`、`ĵ`、`ĥ`
+
+键位映射图：\
+![img](./imgs/0.png)\
+![img](./imgs/1.png)
